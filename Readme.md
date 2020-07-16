@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Alexey Pashkan](https://up.htmlacademy.ru/adaptive/20/user/963741).
-* Наставник: `Неизвестно`.
+* Наставник: Татьяна Симоненко.
 
 ---
 
