@@ -1,0 +1,141 @@
+
+.program-form__title {
+  margin-bottom: 0;
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: @basic-black;
+  padding-left: 20px;
+}
+
+.program-form__subtitle {
+  max-width: 226px;
+  font-family: Oswald;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: @basic-black;
+  padding-left: 20px;
+  margin-top: 37px;
+}
+
+.program-form-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid @basic-border;
+  padding-bottom: 38px;
+}
+
+.program-form-info__description,
+.program-form-info__input,
+.radio-buttons,
+.contacts__label,
+.contacts__input,
+.contacts__placeholder,
+.more__label {
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: @basic-text;
+  padding-left: 20px;
+}
+
+.program-form-info--name {
+  width: 229px;
+  height: 45px;
+}
+
+.program-form-info--weight {
+  width: 204px;
+  height: 45px;
+}
+
+.program-form-info--age {
+  width: 172px;
+  height: 45px;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: @catalog-title;
+  border-bottom: 1px solid @basic-border;
+  padding-bottom: 22px;
+}
+
+.radio-buttons__item {
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__subtitle {
+  max-width: 187px;
+  padding-left: 19px;
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: @basic-black;
+  position: relative;
+}
+
+.contacts__subtitle::after {
+  content: "";
+  background-image: url(../img/title-line.svg);
+  background-color: @basic-green;
+  position: absolute;
+  width: 99px;
+  height: 2px;
+  top: 16px;
+  left: 221px;
+}
+
+.contacts__input {
+  height: 45px;
+}
+
+.contacts--email {
+  width: 219px;
+  margin-bottom: 14px;
+}
+
+.contacts--phone {
+  width: 204px;
+}
+
+.contancts__comments::after {
+  width: 158px;
+  left: 162px;
+}
+
+.more::after {
+  width: 136px;
+  left: 184px;
+}
+
+.contacts__placeholder {
+  display: flex;
+  margin: 0 auto;
+  width: 280px;
+  height: 150px;
+  padding-top: 12px;
+}
+
+.more__input {
+  margin: 16px;
+}
+
+.mandatory-field {
+  margin: 0 auto;
+  margin-top: 21px;
+}

@@ -1,0 +1,37 @@
+.show-extra {
+  border-bottom: 1px solid @basic-border;
+  padding-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-extra::after {
+  content: "";
+  background-image: url(../img/plus.svg);
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 26px;
+  left: 145px;
+}
+
+.show-extra__title {
+  margin: 0;
+  margin-top: 79px;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: @cooperation-subtitle;
+}
+
+.show-extra__description {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: @basic-text;
+}
+
